@@ -1,0 +1,105 @@
+header{
+    padding: 40px 40px 40px 40px;
+    background-color:#ffffff;
+    background-image: url("flywheel.jpg");
+    background-position: inherit;
+    background-size: 100%;
+}
+h1{
+    font-style: initial;
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#800080;
+}
+
+
+.left {
+	background-color:#8a2be2;
+	width: 24%;
+	float:left;
+	padding: 5% 0;
+}
+
+.right {
+	width:74%;
+	display: inline-block;
+	padding-left: 2%;
+}
+
+.left img {
+	border: solid 1px #000000;
+	width: 80%;
+	margin: 10%;
+}
+a{
+    color:#0000FF;
+}
+
+.active{
+    font-size: 50px;
+    color: #000000;
+    padding: 10px 10px 10px 10px;
+    text-decoration: #fff8dc;
+    display: flexbox;
+    background-color: #fff8dc;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+nav a{
+      font-size:50px;
+      color:#000000;
+      padding:10px 10px 10px 10px;
+      text-decoration: #f5f5dc;
+      display: flexbox;
+      background-color:rgb(64, 67, 224);
+      border-radius: 10px;
+      margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+body{
+    padding:20px 20px 20px 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+table{
+    color:black;
+	border-spacing: 10;
+    border-radius: 0 0 5px 5px;
+    margin:10px 10px 10px 10px;
+}
+table tr th{
+    opacity:0.8;
+    text-align: center;
+    border-radius: 25px;
+    padding:50px 50px 50px 50px;
+    background-color: gold ;
+    border:solid 3px black;
+    color:red;
+}
+table tr td{
+    opacity:0.8;
+    padding:20px 20px 20px 20px;
+    border-radius: 25px;
+    background-color: rosybrown;
+    border:solid 3px black;
+    color:black;
+    text-align:center;
+
+}
+table tr td:first-child{
+    text-align:left;
+}
+table tr:hover{
+    opacity:0.7;
+}
